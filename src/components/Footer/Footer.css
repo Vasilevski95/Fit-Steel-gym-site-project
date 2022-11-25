@@ -1,0 +1,42 @@
+.Footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    color: #fff;
+}
+
+.line {
+    position: relative;
+    width: 100%;
+}
+
+.icons>a {
+    color: #fff;
+}
+
+.icons>a:hover {
+    color: var(--orange);
+}
+
+.icons>a>svg {
+    width: 2rem;
+    height: 2rem;
+}
+
+.blur-f-l {
+    width: 26rem;
+    height: 10rem;
+    left: 5%;
+}
+
+
+
+
